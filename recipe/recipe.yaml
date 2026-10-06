@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: copier-template-extensions
-  version: 0.3.3
+  version: "0.3.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/copier_template_extensions-${{ version }}.tar.gz
-  sha256: 86bd5e2e89c94b6f9321e4078781b4456c5658b820bcae49ac60fd1e1dd23c10
+  sha256: ec9d2c50c6d6cdd54f11d1bedffcc01ca40cf74cc3035e171cb4d3fef38bb3ea
 
 build:
   number: 0
